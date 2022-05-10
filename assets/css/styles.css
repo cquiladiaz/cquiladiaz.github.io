@@ -187,6 +187,10 @@ img{
 .home__title-color{
   color: var(--first-color);
 }
+.home__title-ocupation{
+  font-size: calc(var(--big-font-size)*0.9) ;
+  font-weight: 500;
+}
 .home__social{
   display: flex;
   flex-direction: column;
@@ -206,10 +210,10 @@ img{
   bottom: 0;
   width: 260px;
 }
-.home__blob {
+.home__blob{
   fill: var(--first-color);
 }
-.home__blob-img {
+.home__blob-img{
   width: 360px;
 }
 /*BUTTONS*/
