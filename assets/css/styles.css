@@ -295,6 +295,10 @@ img{
 .work__container{
   row-gap: 2rem;
 }
+.work__container article{
+  display: grid;
+  row-gap: 1rem;
+}
 .work__img{
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
@@ -307,6 +311,11 @@ img{
 .work__img img:hover{
   transform: scale(1.1);
 }
+/* in progress */
+.work__in-progress{
+  opacity: 0.4;
+}
+
 /* ===== CONTACT =====*/
 .contact__input{
   width: 100%;
@@ -421,7 +430,7 @@ img{
     column-gap: 2rem;
   }
   .contact__form{
-    width: 360px;
+    width: 500px;
   }
   .contact__container{
     justify-items: center;
