@@ -150,6 +150,7 @@ img{
   background-color: var(--first-color);
 }
 .nav__logo{
+  font-size: large;
   color: var(--secondary-color);
 }
 .nav__toggle{
