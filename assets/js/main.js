@@ -23,7 +23,6 @@ function linkAction(){
     navMenu.classList.remove('show');
 }
 
-navLink.forEach(n => n.addEventListener('click', linkAction));
 /*==================== REMOVE MENU MOBILE ====================*/
 
 
