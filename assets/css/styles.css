@@ -292,6 +292,7 @@ img{
 /* ===== WORK =====*/
 .work{
   text-align: center;
+  margin-bottom: 50px;
 }
 .work__container{
   row-gap: 2rem;
