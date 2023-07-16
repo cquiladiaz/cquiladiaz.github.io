@@ -5,12 +5,12 @@
   --header-height: 3rem;
   --font-semi: 600;
 }
-/*===== Colores =====*/
+/*===== Colors =====*/
 :root{
   --first-color: #4070F4;
   --secondary-color: #0E2431;
 }
-/*===== Fuente y tipografia =====*/
+/*===== Fonts =====*/
 :root{
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -24,7 +24,7 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== Margins =====*/
 :root{
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -347,9 +347,6 @@ img{
 }
 .footer__title{
   font-size: 2rem;
-  margin-bottom: var(--mb-4);
-}
-.footer__social{
   margin-bottom: var(--mb-4);
 }
 .footer__icon{
