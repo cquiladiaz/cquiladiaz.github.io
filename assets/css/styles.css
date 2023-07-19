@@ -290,31 +290,31 @@ img{
   border-radius: 0.5rem;
 }
 /* ===== WORK =====*/
-.work{
+.projects{
   text-align: center;
   margin-bottom: 50px;
 }
-.work__container{
+.projects__container{
   row-gap: 2rem;
 }
-.work__container article{
+.projects__container article{
   display: grid;
   row-gap: 1rem;
 }
-.work__img{
+.projects__img{
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
 }
-.work__img img{
+.projects__img img{
   transition: 1s;
   cursor: pointer;
 }
-.work__img img:hover{
+.projects__img img:hover{
   transform: scale(1.1);
 }
 /* in progress */
-.work__in-progress{
+.projects__in-progress{
   opacity: 0.4;
 }
 
@@ -423,7 +423,7 @@ img{
   .about__img img{
     width: 300px;
   }
-  .work__container{
+  .projects__container{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     column-gap: 2rem;
