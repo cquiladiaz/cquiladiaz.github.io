@@ -17,7 +17,14 @@
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
 }
-@media screen and (min-width: 1024px){
+
+@media screen and (min-width: 768px){
+  :root{
+  --big-font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 900px){
   :root{
   --big-font-size: 3.5rem;
   --normal-font-size: 1rem;
@@ -440,5 +447,41 @@ img{
   .bd-grid{
     margin-left: auto;
     margin-right: auto;
+    padding-left: var(--mb-2);
+    padding-right: var(--mb-2);
+  }
+  .home__img{
+    padding-right: var(--mb-2);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+  .home__img{
+    bottom: 4%;
+  }
+}
+
+@media screen and (min-width: 678px) and (max-width: 767px){
+  .home__img{
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 677px){
+  .home__img{
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 395px) and (max-width: 475px){
+  .home__img{
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 395px){
+  .home__img{
+    width: 254px;
+    padding-bottom: 16px;
   }
 }
