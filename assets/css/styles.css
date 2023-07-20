@@ -220,6 +220,7 @@ img{
 /*BUTTONS*/
 .button{
   display: inline-block;
+  margin-top: var(--mb-2);
   background-color: var(--first-color);
   color: #fff;
   padding: 0.75rem 2.5rem;
@@ -238,13 +239,29 @@ img{
 .about__subtitle{
   margin-bottom: var(--mb-2);
 }
+.about__container .about__text{
+  padding-bottom: var(--mb-1);
+}
+#ch{
+  display: none;
+}
+#ch:checked ~ .about__text-extra{
+  display: block;
+}
+#ch:checked ~ label{
+  display: none;
+}
+.about__text-extra{
+  display: none;
+}
 .about__img{
   justify-self: center;
 }
 .about__img img{
-  width: 200px;
+  width: 350px;
   border-radius: 0.5rem;
 }
+
 /* ===== SKILLS =====*/
 .skills__container{
   row-gap: 2rem;
