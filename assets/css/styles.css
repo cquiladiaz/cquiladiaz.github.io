@@ -261,6 +261,16 @@ img{
 .about__text-extra{
   display: none;
 }
+.about__text > a {
+  color: #fff;
+  padding: 1px 9px;
+  background-image: linear-gradient(
+  90deg,
+  hsl(224deg 89% 60%) 0%,
+  hsl(262deg 62% 57%) 53%,
+  hsl(297deg 100% 35%) 100%);
+  border-radius: 100px;
+}
 .about__img{
   justify-self: center;
 }
@@ -435,7 +445,9 @@ img{
     width: 400px;
     bottom: 15%;
   }
-
+  .about__container div:last-child{
+    padding-right: var(--mb-2);
+  }
   .about__container, .skills__container{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
